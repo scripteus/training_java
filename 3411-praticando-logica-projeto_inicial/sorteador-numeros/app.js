@@ -18,23 +18,18 @@ function sortear() {
     for (let i = 0; i < quantidade; i++) {
         let numeroSorteado = gerarNumerosAleatorios(de, ate);
 
-    Verifica se o número já foi sorteado
-    while (numerosSorteados.includes(numeroSorteado)) {
-        numeroSorteado = gerarNumerosAleatorios(de, ate);
-    }
-        numerosSorteados.push(numeroSorteado);
-    }
+        // Verifica se o número já foi sorteado
+        while (numerosSorteados.includes(numeroSorteado)) {
+            numeroSorteado = gerarNumerosAleatorios(de, ate);
+        }
+            numerosSorteados.push(numeroSorteado);
+        }
 
-    // if (ate > de) {
-    //     // Se o número "de" for maior que "ate" retorne um erro
-    //     return alert("O valor de 'de' não pode ser maior que o valor de 'ate');;
-    // } else {
-    //     // Se o número "de" for menor ou igual a "ate" retorne os números
-    //     let resultado = document.getElementById('resultado');
-    //     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados:  ${numerosSorteados}</label>`;
-    //     alterarStatusDoBotao();
-    // }
-    // }
+    if (ate >= de) {
+    // Se o número "de" for maior que "ate" retorne um erro
+    alert('Campo "Do número" deve ser inferior ao campo "Até o número".');
+        return;
+    }
 
     // Mostra o resultado na label "resultado"
     let resultado = document.getElementById('resultado');
