@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Digite sua senha: ");
         String senha = scanner.nextLine();
 
-        if (cpf.equals("1234567890") && senha.equals("12345")) {
+        if (cpf.equals("14481288620") && senha.equals("12345")) {
             System.out.println("Conta encontrada!");
             System.out.println("*************************************");
             System.out.println("Nome: Matheus Henrique Silva Souza");
@@ -71,7 +71,7 @@ public class Main {
                         System.out.println("Opção inválida!");
                 }
 
-                System.out.println("\nEscolha uma opção: ");
+                System.out.println("\nEscolha outra opção: ");
                 option = scanner.nextInt();
 
             }
