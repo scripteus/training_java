@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Trilha de Java/AtividadesExtras/AtividadesExtras.iml" filepath="$PROJECT_DIR$/Trilha de Java/AtividadesExtras/AtividadesExtras.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trilha de Java/QueryData/QueryData.iml" filepath="$PROJECT_DIR$/Trilha de Java/QueryData/QueryData.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trilha de Java/Trilha de Java.iml" filepath="$PROJECT_DIR$/Trilha de Java/Trilha de Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/training_java.iml" filepath="$PROJECT_DIR$/.idea/training_java.iml" />
